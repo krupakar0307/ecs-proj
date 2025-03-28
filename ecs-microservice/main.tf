@@ -21,21 +21,3 @@ module "ecs" {
         }
     }
 }
-
-# Fetch Secrets from AWS Secrets Manager
-data "aws_secretsmanager_secret" "db_secret" {
-  name = "${var.environment}/rds-creds/rds-wordpress"
-}
-
-data "aws_secretsmanager_secret_version" "db_credentials" {
-  secret_id = data.aws_secretsmanager_secret.db_secret.id
-}
-
-locals {
-  db_creds = jsondecode(data.aws_secretsmanager_secret_version.db_credentials.secret_string)
-}
-
-
-output "dns_name" {
-  value = module.ecs.dns
-}
