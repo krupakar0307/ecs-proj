@@ -19,8 +19,9 @@ This project implements a robust AWS infrastructure using ECS (Elastic Container
 
 Finally, 
 
-[wordpress](./ecs-wordpress/assets/wordpress-site.png)
+![wordpress](./ecs-wordpress/assets/wordpress-site.png)
 
-[microservice](./ecs-microservice/assets/test-site.png)
+![microservice](./ecs-microservice/assets/test-site.png)
+
 
 ----

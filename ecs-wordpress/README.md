@@ -38,7 +38,7 @@ The main diff between this service (ecs-wordpress) and (ecs-microservice) is thi
 
 - once you're are provisioned, you should be seen this - 
 
-[Image](./assets/wordpress-site.png)
+![wordpress](./assets/wordpress-site.png)
 
 !!!
 
