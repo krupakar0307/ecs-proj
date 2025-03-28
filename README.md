@@ -2,7 +2,9 @@
 
 This project implements a robust AWS infrastructure using ECS (Elastic Container Service) with Application Load Balancer, RDS database, and AWS Secrets Manager integration.
 
-[Assignment](./ecs-microservice/assets/assignment.png)
+Requirement overview
+
+![Assignment](./ecs-microservice/assets/assignment.png)
 
 ## Usage:
 
@@ -19,7 +21,11 @@ This project implements a robust AWS infrastructure using ECS (Elastic Container
 
 Finally, 
 
+Wordpress
+
 ![wordpress](./ecs-wordpress/assets/wordpress-site.png)
+
+Microservice
 
 ![microservice](./ecs-microservice/assets/test-site.png)
 
