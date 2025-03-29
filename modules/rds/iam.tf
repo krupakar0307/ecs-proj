@@ -40,6 +40,4 @@ resource "aws_iam_role_policy_attachment" "secretsmanager_attachment" {
     policy_arn = aws_iam_policy.secretsmanager_policy.arn
 }
 
-resource "aws_secretsmanager_secret" "db_creds" {
-    name = "dev/rds-creds/${aws_db_instance.rds_instance.identifier}"
-}
+
