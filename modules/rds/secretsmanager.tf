@@ -8,3 +8,7 @@ resource "aws_secretsmanager_secret_version" "db_creds_version" {
         db_name      = aws_db_instance.rds_instance.db_name
     })
 }
+
+resource "aws_secretsmanager_secret" "db_creds" {
+    name = "dev/rds-creds/${aws_db_instance.rds_instance.identifier}"
+}
