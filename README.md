@@ -1,6 +1,6 @@
-# ECS Assignment Project
+# ECS Infra setup in private subnets along with RDS
 
-This project implements a robust AWS infrastructure using ECS (Elastic Container Service) with Application Load Balancer, RDS database, and AWS Secrets Manager integration.
+This project implements a AWS infrastructure using ECS (Elastic Container Service) with Application Load Balancer, RDS database, and AWS Secrets Manager integration.
 
 Requirement overview
 
